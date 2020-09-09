@@ -1,0 +1,63 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    background-image: url("vr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+}
+.virtual-learning{
+    align-items: center;
+    font-size: 1.25em;
+    color: rgb(51, 8, 245);
+    text-decoration: none;
+}
+.subheading{
+    color: rgb(40, 240, 13);
+    margin-left: 1rem;
+}
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+.main-nav a:hover{
+    color: blue;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+.container{
+    max-width:1200px ;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.title {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.btn{
+    color:white ;
+    background-color: blue;
+    padding: .7rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
