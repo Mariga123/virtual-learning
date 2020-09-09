@@ -4,12 +4,12 @@
 body{
     padding:0;
     margin:0;
-    background-image: url("vr.jpg");
+    background-image: url("images.css/img/vr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
     font-size: 1.2rem;
-    color: white;
+    color:black;
     min-height: 100vh;
 }
 .virtual-learning{
@@ -60,4 +60,69 @@ body{
     border-radius: .5rem;
     text-decoration: none;
     font-size: .9rem;
+    outline: none;
+    border:none ;
+    cursor: pointer;
 }
+.social-link img{
+    width: 1em;
+    margin-right:.25rem ;
+}
+.main-footer{
+    list-style: none;
+    height: 70px;
+    background-color: green;
+    font-weight: inherit;
+    background-size: cover;
+    text-decoration: none;
+}
+.main-footer .container{
+    display:flex;
+    justify-content: space-between;
+}
+.btn:hover{
+    background-color:green;
+}
+.btn:focus{
+    background-color: black;
+}
+.join-form{
+    background-color:darkblue;
+    align-items: inherit;
+    width: 50vw;
+    max-width:50%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+.input-group{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-group:last-child{
+    margin-bottom: 0;
+}
+.input-group label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.input-group input{
+    outline: none;
+    background:none;
+    border: 1px solid blue;
+    font-size: 1em;
+    padding: .53em;
+    color:white;
+    border-radius: 5px;
+}
+.input-group input:focus{
+    border-color:#596da0 ;
+}
+.join-form{
+    width: 80vw;
+    max-width: inherit;
+    margin: 2rem 0;
+}
+
+    
+
