@@ -7,10 +7,11 @@ body{
     background-image: url("images.css/img/vr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     font-family: sans-serif;
     font-size: 1.2rem;
     color:black;
-    min-height: 100vh;
+    min-height: auto;
 }
 .virtual-learning{
     align-items: center;
@@ -63,6 +64,14 @@ body{
     outline: none;
     border:none ;
     cursor: pointer;
+}
+.about-us.html{
+    background-image: url(/images.css/img/frame2.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+h4{
+    font-style: italic;
 }
 .social-link img{
     width: 1em;
@@ -123,6 +132,7 @@ body{
     max-width: inherit;
     margin: 2rem 0;
 }
+
 
     
 
