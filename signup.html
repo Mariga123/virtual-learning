@@ -7,56 +7,40 @@
     <link rel="stylesheet" href="images.css">
     <title>VIRTUAL LEARNING</title>
 </head>
+<div class="header">
+    <img src="/images.css/img/log.jpg" width="40px" height="40px">
+    <a href="#default" class="logo">Virtual learning</a>
+</div>
 <nav class="main-nav">
     <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about-us</a></li>
-        <li><a href="signup.html">signup</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="signup.html">Signup</a></li>
     </ul>
-  </nav>
-    <form class="join-form">
-        <div class="input-group">
-            <label>Name:</label>
-            <input type="text">
-        </div>
-        <div class="input-group">
-            <label>Email:</label>
-            <input type="email">
-        </div>
-        <div class="input-group">
-            <label>Password:</label>
-            <input type="password">
-        </div>
-        <div class="input-group">
-            <button type="submit" class="btn">Join Now</button>
-        </div>
-    </form>
-    <footer class="main-footer">
+    <form action="/action_page.php">
         <div class="container">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#">Contact Us</a>
-                    0742249975</li>
-                    <li><a href="#">Follow</a>johnmariga8@gmail.com</li>
-                </ul>
-            </nav>
-            <nav class="footer-nav">
-                <ul>
-                  <li>
-                      <a href="#" class="social-link">
-                         <img src="images.css/img/fb.png"> 
-                           zellyjones
-                      </a>
-                  </li>
-                  <li>
-                     <a href="#" class="social-link">
-                        <img src="images.css/img/ig.jpeg"> 
-                          zellyjones
-                     </a>
-                  </li> 
-                </ul>
-            </nav>
+          <h1>Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      
+          <button type="submit" class="registerbtn">Register</button>
         </div>
-  </footer>
+        
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
 </body>
 </html>

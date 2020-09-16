@@ -4,7 +4,7 @@
 body{
     padding:0;
     margin:0;
-    background-image: url("images.css/img/vr.jpg");
+    background-color: lightcoral;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,27 +23,35 @@ body{
     color: rgb(40, 240, 13);
     margin-left: 1rem;
 }
-.main-nav ul{
-    display: flex;
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style: none;
+    overflow: hidden;
+    background-color: #333;
 }
-.main-nav a {
-    color: black;
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 1rem;
 }
-.main-nav a:hover{
-    color: blue;
+  
+  li a:hover {
+    background-color: #111;
 }
-.main-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-}
-.container{
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+ }
+/* .container{
     max-width:1200px ;
     margin: 0 auto;
     padding: 0 40px;
@@ -52,7 +60,7 @@ body{
     font-weight: normal;
     font-size: 1.5em;
     margin-bottom: 1rem;
-    margin-top: 0;
+    margin-top: 0; */
 }
 .btn{
     color:white ;
@@ -65,73 +73,91 @@ body{
     border:none ;
     cursor: pointer;
 }
-.about-us.html{
-    background-image: url(/images.css/img/frame2.jpeg);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-h4{
-    font-style: italic;
-}
-.social-link img{
-    width: 1em;
-    margin-right:.25rem ;
-}
-.main-footer{
-    list-style: none;
-    height: 70px;
-    background-color: green;
-    font-weight: inherit;
-    background-size: cover;
-    text-decoration: none;
-}
-.main-footer .container{
-    display:flex;
-    justify-content: space-between;
-}
 .btn:hover{
     background-color:green;
 }
 .btn:focus{
     background-color: black;
 }
-.join-form{
-    background-color:darkblue;
-    align-items: inherit;
-    width: 50vw;
-    max-width:50%;
-    padding: 2rem 4rem;
-    border-radius: 20px;
+.container {
+    padding: 16px;
+    background-color: white;
 }
-.input-group{
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
 }
-.input-group:last-child{
-    margin-bottom: 0;
-}
-.input-group label{
-    font-weight: bold;
-    margin-bottom: .5rem;
-}
-.input-group input{
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
     outline: none;
-    background:none;
-    border: 1px solid blue;
-    font-size: 1em;
-    padding: .53em;
+}
+#paragraph{
+    text-align: center;
+}
+.Description{
+    text-align: center;
+    font-style: inherit;
+    margin: 10px;
+}
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  .registerbtn:hover {
+    opacity: 1;
+}
+  a {
+    color: dodgerblue;
+}
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#links{
+    justify-content: center;
+}
+#index{
+    justify-content: space-between;
+    text-align: center;
+}
+.images{
+    justify-content: left;
+}
+#motto{
+    font-style: italic;
+    font-size: small;
+    color: white;
+}
+.fa{
+    font-size: medium;
+    padding: 15px;
+    text-align: right;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+.fa-facebook{
+    color: white;
+    background-color: blue;
+}
+.fa-instagram{
     color:white;
-    border-radius: 5px;
+    background-color: red;
 }
-.input-group input:focus{
-    border-color:#596da0 ;
-}
-.join-form{
-    width: 80vw;
-    max-width: inherit;
-    margin: 2rem 0;
-}
+
+
 
 
     
